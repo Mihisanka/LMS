@@ -38,7 +38,7 @@
     </div>
 
     <center>
-        <h1>Welcome to W-school </h1>
+        <h1 class="start">Welcome to W-school </h1>
     </center>
 
     <div class="container">
@@ -59,44 +59,91 @@
     </div>
 
     <center>
-        <h1>Teachers</h1>
+        <h1 class="start">Teachers</h1>
     </center>
     <div class="container">
 
         <div class="row">
             <div class="col-md-4">
                 <img class="teacher" src="teacher1.jpg">
+                <p>Schools can be public or private, and their structures
+                    <br>can vary based on educational philosophies and regional policies
+                </p>
             </div>
             <div class="col-md-4">
                 <img class="teacher" src="teacher2.jpg">
+                <p>Schools can be public or private, and their structures
+                    <br>can vary based on educational philosophies and regional policies
+                </p>
             </div>
 
             <div class="col-md-4">
                 <img class="teacher" src="teacher3.jpg">
+                <p>Schools can be public or private, and their structures
+                    <br>can vary based on educational philosophies and regional policies
+                </p>
             </div>
 
         </div>
     </div>
 
     <center>
-        <h1>Causes </h1>
+        <h1 class="start">Courses </h1>
     </center>
     <div class="container">
 
         <div class="row">
             <div class="col-md-4">
-                <img class="Causes" src="school.jpg">
+                <img class="Courses" src="school.jpg">
+                <h3>Teaching </h3>
+
             </div>
             <div class="col-md-4">
-                <img class="Causes" src="marketing.png">
+                <img class="Courses" src="marketing.png">
+                <h3>Marketing </h3>
             </div>
 
             <div class="col-md-4">
-                <img class="Causes" src="web.jpg">
+                <img class="Courses" src="web.jpg">
+                <h3>Web Development</h3>
             </div>
 
         </div>
     </div>
+
+    <center>
+        <h1 class="start">Admission</h1>
+    </center>
+
+    <div align="center" class="admission_from">
+        <form>
+            <div class="adm_int">
+                <label class="label_text">Name</label>
+                <input class="input_deg" type="text">
+            </div>
+            <div>
+                <label class="label_text">Email</label>
+                <input class="input_deg" type="text">
+            </div>
+            <div>
+                <label class="label_text">Phone</label>
+                <input class="input_deg" type="text">
+            </div>
+            <div>
+                <label class="label_text">Message</label>
+                <textarea class="input_text"></textarea>
+            </div>
+            <div class="adm_int">
+                <input class="btn btn-primary" id="submit" type="submit" value="Apply">
+            </div>
+        </form>
+    </div>
+
+    <footer>
+
+        <h4 class="f_text">all @copyright reservers by MihisankaSandudeeptha 2024</h4>
+    </footer>
+
 </body>
 
 </html>

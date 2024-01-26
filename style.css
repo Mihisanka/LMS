@@ -69,15 +69,66 @@ ul li a{
 }
 
 .text{
-    align-content:right;
+   align-content:right;
    align-items: right;
 }
 
 .teacher{
     width: 90%;
     height: 200px;
+   
 }
-.Causes{
+
+.Courses{
     width: 90%;
     height: 200px;
+}
+.label_text{
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    padding-right: 10px;}
+
+.input_deg {
+    width: 30%;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid blue;
+}
+.adm_int{
+    padding-top: 10px;
+    align-items: center;
+}
+.input_text{
+
+    width: 30%;
+    height: 90px;
+    border-radius: 25px;
+    border: 1px solid blue;
+}
+
+#submit{
+    position: relative;
+    width: 15%;
+    left: 5%;
+    align-items: center;
+}
+.btn btn-primary{
+    align-items: center;
+}
+
+
+footer{
+    background-color: black;
+    height: 70px;
+    width: 100%;
+}
+.f_text{
+    text-align: center;
+    color: white;
+    top: 20%;
+    position: relative;
+}
+.start{
+    padding-top: 30px;
 }
