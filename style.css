@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    position: fixed;
+    background-color: rgb(91, 166, 251);
+    height: 60px;
+    width: 100%;
+    z-index: 1;
+
+}
+.logo{
+    position: relative;
+    left: 5%;
+    font-size:25px;
+    color: white;
+    font-weight: bold;
+    line-height: 60px;
+}
+ul{
+    list-style: none;
+    position: relative;
+    float: right;
+    margin: auto;
+    display: flex;
+}
+ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+    position: relative;
+}
+
+
+ul li a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.section1{
+   padding-top: 50px;
+}
+
+.main_img{
+    width: 100%;
+    height: 600px;
+
+}
+
+.main_text{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: blue;
+    padding-left:20px ;
+    padding-right: 20px;
+}
+
+.welcome_img{
+    width: 100%;
+    height: 250px;
+
+}
+.container{
+    padding-top: 70px;
+}
+
+.text{
+    align-content:right;
+   align-items: right;
+}
+
+.teacher{
+    width: 90%;
+    height: 200px;
+}
+.Causes{
+    width: 90%;
+    height: 200px;
+}
