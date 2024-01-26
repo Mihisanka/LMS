@@ -62,6 +62,7 @@ ul li a{
 .welcome_img{
     width: 100%;
     height: 250px;
+    border-radius: 25px;
 
 }
 .container{
@@ -74,14 +75,16 @@ ul li a{
 }
 
 .teacher{
-    width: 90%;
+    border-radius: 25px;
+    width: 100%;
     height: 200px;
-   
+  
 }
 
 .Courses{
-    width: 90%;
+    width: 100%;
     height: 200px;
+    border-radius: 25px;
 }
 .label_text{
     display: inline-block;
@@ -131,4 +134,38 @@ footer{
 }
 .start{
     padding-top: 30px;
+}
+
+
+/*login form*/
+
+.form_deg{
+    margin-top: 200px;
+}
+.label_text{
+    display: inline-block;
+    color: skyblue;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.login_fo{
+    border: solid 1px lightgray;
+    background-color: rgb(28, 30, 30);
+    width: 400px;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    border-radius: 25px;
+}
+
+.title_log{
+   
+    color: beige;
+    font-weight: bold;
+    width: 400px;
+    padding-bottom:10px;
+    padding-top: 10px;
+    font-size: 30px;
+   
 }
