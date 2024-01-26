@@ -23,10 +23,9 @@
 <body>
     <center>
         <div class=" form_deg">
-            <form class="login_fo">
-                <center class="title_log">
-                    Login form
-                </center>
+
+            <form action="login_check.php" method="POST" class="login_fo">
+                <label class="title_log">Login form</label>
                 <div>
                     <label class="label_text">Username</label>
                     <input type="text" name="username">

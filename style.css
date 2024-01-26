@@ -154,18 +154,16 @@ footer{
     border: solid 1px lightgray;
     background-color: rgb(28, 30, 30);
     width: 400px;
-    padding-top: 100px;
+    padding-top: 70px;
     padding-bottom: 70px;
     border-radius: 25px;
 }
-
 .title_log{
-   
-    color: beige;
-    font-weight: bold;
+    font-size: 26px;
+    background-color: rgb(183, 230, 230);
     width: 400px;
-    padding-bottom:10px;
     padding-top: 10px;
-    font-size: 30px;
-   
+    padding-bottom: 10px;
+    border-radius: 25px;
+    align-items: flex-end;
 }
