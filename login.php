@@ -32,7 +32,7 @@
                 </div>
                 <div>
                     <label class="label_text">Password</label>
-                    <input type="text" name="username">
+                    <input type="text" name="password">
                 </div>
                 <div>
 
