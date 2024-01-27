@@ -167,3 +167,13 @@ footer{
     border-radius: 25px;
     align-items: flex-end;
 }
+
+.error_m{
+    font-size: 26px;
+    background-color: rgb(183, 230, 230);
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    align-items: flex-end;
+}

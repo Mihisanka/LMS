@@ -1,3 +1,6 @@
+<?php
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -9,6 +12,7 @@
 <body>
 
     <h1>Student home</h1>
+    <a href="logout.php">Logout</a>
 
 
 </body>

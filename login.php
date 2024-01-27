@@ -23,9 +23,9 @@
 <body>
     <center>
         <div class=" form_deg">
+            <label class="title_log">Login form</label>
+            <form action=" login_check.php" method="POST" class="login_fo">
 
-            <form action="login_check.php" method="POST" class="login_fo">
-                <label class="title_log">Login form</label>
                 <div>
                     <label class="label_text">Username</label>
                     <input type="text" name="username">
@@ -39,6 +39,20 @@
                     <input class="btn btn-primary" type="submit" name="login" value="Login">
                 </div>
             </form>
+            <center class="error_m">
+
+                <h4>
+                    <?php
+
+                error_reporting(0);
+                session_start();
+                session_destroy();
+                
+                echo $_SESSION['loginMessage'];
+                
+                ?>
+                </h4>
+            </center>
 
         </div>
     </center>
