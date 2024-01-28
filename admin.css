@@ -7,7 +7,9 @@
     line-height: 70px;
     padding-left :30px; 
     font-weight: bold;
-}
+  
+ }
+
 .logout{
     float: right;
     padding-right: 30px;
@@ -38,4 +40,10 @@ a,a:hover
  ul li a{
     font-weight: bold;
     color: aliceblue;
+ }
+ .content {
+    margin-top: 5%;
+    margin-left: 30%;
+
+
  }

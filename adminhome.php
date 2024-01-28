@@ -35,7 +35,7 @@ elseif  ($_SESSION['usertype']=='student'){
         <a href="">Admin Dashboard</a>
 
         <div class="logout">
-            <a href="" class="btn btn-primary">Logout</a>
+            <a href="logout.php" class="btn btn-primary">Logout</a>
         </div>
     </header>
     <aside>
@@ -67,6 +67,17 @@ elseif  ($_SESSION['usertype']=='student'){
 
     </aside>
 
+
+    <aside>
+        <div class="content">
+            <h1> Admin slide bar content </h1>
+            <p>Schools can be public or private, and their structures
+                <br>can vary based on educational philosophies and regional policies
+                Schools can be public or private, and their structures
+                <br>can vary based on educational philosophies and regional policies
+            </p>
+        </div>
+    </aside>
 </body>
 
 </html>
