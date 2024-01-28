@@ -24,10 +24,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
             if ($row["usertype"]== "student") {
                 $_SESSION['username']=$name;
+                $_SESSION['usertype']="student";
                 header("location: studenthome.php");
                
             } elseif ($row["usertype"] == "admin") {
                 $_SESSION['username']=$name;
+                $_SESSION['usertype']="admin";
                 header("location: adminhome.php");
                 
             } else {
