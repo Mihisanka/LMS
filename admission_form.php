@@ -23,9 +23,11 @@ $result = mysqli_query($data, $sql);
 <head>
     <meta charset="utf-8">
     <title>Admission form </title>
+
     <?php 
      include'admin_css.php';
     ?>
+
 </head>
 
 <body>

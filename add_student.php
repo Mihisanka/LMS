@@ -13,8 +13,7 @@ elseif  ($_SESSION['usertype']=='student'){
 
 <head>
     <meta charset="utf-8">
-    <title>Admin Dashboard</title>
-
+    <title>Add Student </title>
 
     <?php 
 
@@ -35,7 +34,7 @@ elseif  ($_SESSION['usertype']=='student'){
 
     <aside>
         <div class="content">
-            <h1> Admin slide bar content </h1>
+            <h1> Add Student</h1>
         </div>
     </aside>
 </body>

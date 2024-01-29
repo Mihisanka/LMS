@@ -5,7 +5,7 @@
 .header{
     background-color: skyblue;
     line-height: 70px;
-    padding-left :10px; 
+    padding-left :30px;  
     font-weight: bold;
   
  }
@@ -38,13 +38,13 @@ a,a:hover
  }
 
  ul li a{
-   font-size: 30px;
-    font-weight: bold;
-    color: aliceblue;
+
+   font-weight: bold;
+   color: aliceblue;
  }
  .content {
     margin-top: 5%;
-    margin-left: 10%;
+    margin-left: 25%;
 
 
  }

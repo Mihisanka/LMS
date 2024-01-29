@@ -1,4 +1,5 @@
 <header class="header">
+
     <a href="adminhome.php">Admin Dashboard</a>
 
     <div class="logout">
@@ -12,7 +13,7 @@
             <a href="admission_form.php">Admission</a>
         </li>
         <li>
-            <a href="">Add Student </a>
+            <a href="add_student.php">Add Student </a>
         </li>
         <li>
             <a href="">View Student</a>
