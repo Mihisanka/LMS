@@ -1,3 +1,4 @@
+@ -1,11 +1,41 @@
 <?php
 session_start();
 if (!isset($_SESSION["username"])) {
@@ -27,10 +28,10 @@ if (!isset($_SESSION["add_student"]))
 
    $result = mysqli_query($data, $sql);    
    if($result){
-    echo"<script type='text/javascript'> alert('data Upload success ');  </script";
+    echo"<script type='text/javascript'> alert('data Upload success ');  </script>";
    }
    else{
-    echo"<script type='text/javascript'> alert('data Upload unsuccess ');  </script";
+    echo"<script type='text/javascript'> alert('data Upload unsuccess ');  </script>";
    }
 }
 
@@ -39,7 +40,8 @@ if (!isset($_SESSION["add_student"]))
 ?>
 
 <!DOCTYPE html>
-<html>
+<meta charset="utf-8">
+<title>Add Student </title>
 
 <head>
     <meta charset="utf-8">
@@ -81,6 +83,7 @@ if (!isset($_SESSION["add_student"]))
 
     <aside>
         <div class="content">
+            <h1> Add Student</h1>
             <center>
                 <h1> Add Student</h1>
 
