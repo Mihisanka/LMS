@@ -7,6 +7,8 @@ elseif  ($_SESSION['usertype']=='student'){
     header('location:login.php');
 }
 
+/* db connection */
+
 $host = "localhost";
 $user = "root";
 $password = "";
