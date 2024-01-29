@@ -1,3 +1,17 @@
+<?php
+error_reporting(0);
+session_start();
+session_destroy();
+
+if ($_SESSION['message']) {
+    
+    $message=$_SESSION['message'];
+    echo "<script type ='text/javascript'>
+    alert('$message');
+    </script>";
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 

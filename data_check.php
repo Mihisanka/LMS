@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 $host = "localhost";
 $user = "root";
 $password = "";
@@ -18,7 +20,9 @@ if (isset($_POST['apply'])) {
     $result = mysqli_query($data, $sql);
 
     if ($result) {
-        echo "apply success";
+        $_SESSION['$message']="send you application successfully";
+        header ("location:index.php");
+        
     } else {
         echo "apply failed";
     }
