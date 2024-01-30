@@ -1,5 +1,7 @@
 <?php
 session_start();
+error_reporting(0);
+
 if (!isset($_SESSION["username"])) {
     header("location:login.php");
 }
@@ -58,6 +60,14 @@ $result = mysqli_query($data, $sql);
         <div class="content">
             <center>
                 <h1>View Student </h1>
+                <?php 
+                if($_SESSION['message'])
+                {
+                    echo $_SESSION['message'];
+                }
+                unset($_SESSION['message']);
+                 ?>
+
                 <br><br>
                 <table border="1px">
                     <tr>
@@ -65,6 +75,7 @@ $result = mysqli_query($data, $sql);
                         <th class="table_th">Email</th>
                         <th class="table_th">Phone</th>
                         <th class="table_th">Password</th>
+                        <th class="table_th">Delete</th>
                     </tr>
                     <?php 
                 while($info=$result->fetch_assoc()){
@@ -74,7 +85,9 @@ $result = mysqli_query($data, $sql);
                         <td class="table_td"><?php  echo"{$info['email']}";?></td>
                         <td class="table_td"><?php  echo"{$info['phone']}";?></td>
                         <td class="table_td"><?php  echo"{$info['password']}";?></td>
-
+                        <td class="table_td"><?php  echo"<a onClick=\"javascript:return confirm
+                        ('Ae tou sure to delete data ');\" href='delete.php?student_id={$info['id']}'>Delete</a>";?>
+                        </td>
                     </tr>
                     <?php 
                 }
