@@ -24,40 +24,30 @@ if($_GET['student_id']){
 <html>
 
 <head>
+    <meta charset="utf-8">
+    <title>Admin Dashboard</title>
+
+
     <?php 
+
      include'admin_css.php';
+     
     ?>
+
 </head>
 
 <body>
 
-    <header class="header">
-        <a href="view_student.php">Back</a>
 
-        <div class="logout">
-            <a href="logout.php" class="btn btn-primary">Logout</a>
-        </div>
-    </header>
-    <aside>
+    <?php 
 
-        <ul>
-            <li>
-                <a href="">My Account </a>
-            </li>
-            <li>
-                <a href="">My Courses </a>
-            </li>
-
-        </ul>
-
-    </aside>
-
+     include'admin_sidebar.php';
+     
+    ?>
 
     <aside>
         <div class="content">
-            <h1> Delete successfully</h1>
-
-            </p>
+            <h1>Delete</h1>
         </div>
     </aside>
 </body>

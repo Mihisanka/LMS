@@ -29,6 +29,20 @@ $result = mysqli_query($data, $sql);
     <?php 
      include'admin_css.php';
     ?>
+    <style type="text/css">
+    .table_th {
+        padding: 20px;
+        font-size: 19px;
+        padding-top: 10px;
+    }
+
+    .table_td {
+        padding: 20px;
+        font-size: 19px;
+        padding-top: 10px;
+        background-color: aquamarine;
+    }
+    </style>
 
 </head>
 
@@ -44,20 +58,20 @@ $result = mysqli_query($data, $sql);
                 <br><br>
                 <table border="1px">
                     <tr>
-                        <th style="padding:20px; font-size:15px;">Name</th>
-                        <th style="padding:20px; font-size:15px;">Email</th>
-                        <th style="padding:20px; font-size:15px;">Phone Number</th>
-                        <th style="padding:20px; font-size:15px;">Message</th>
+                        <th class="table_th">Name</th>
+                        <th class="table_th">Email</th>
+                        <th class="table_th">Phone Number</th>
+                        <th class="table_th">Message</th>
                     </tr>
 
                     <?php 
                 while($info=$result->fetch_assoc()){
                 ?>
                     <tr>
-                        <td style="padding:20px;"><?php  echo"{$info['name']}";?></td>
-                        <td style="padding:20px;"><?php  echo"{$info['email']}";?></td>
-                        <td style="padding:20px;"><?php  echo"{$info['phone']}";?></td>
-                        <td style="padding:20px;"><?php  echo"{$info['message']}";?></td>
+                        <td class="table_td"><?php  echo"{$info['name']}";?></td>
+                        <td class="table_td"><?php  echo"{$info['email']}";?></td>
+                        <td class="table_td"><?php  echo"{$info['phone']}";?></td>
+                        <td class="table_td"><?php  echo"{$info['message']}";?></td>
                     </tr>
                     <?php 
                 }
