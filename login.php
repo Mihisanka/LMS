@@ -10,7 +10,13 @@
         <a href="index.php" class="btn btn-primary">Back</a>
     </div>
 
+    <header class="header">
+        <a href="index.php">Student Dashboard</a>
 
+        <div class="logout">
+            <a href="logout.php" class="btn btn-primary">Logout</a>
+        </div>
+    </header>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
