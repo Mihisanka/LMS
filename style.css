@@ -144,7 +144,7 @@ footer{
 }
 .label_text{
     display: inline-block;
-    color: skyblue;
+    color: rgb(10, 10, 10);
     width: 100px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -152,7 +152,7 @@ footer{
 }
 .login_fo{
     border: solid 1px lightgray;
-    background-color: rgb(28, 30, 30);
+    background-color: rgb(10, 10, 10);
     width: 400px;
     padding-top: 70px;
     padding-bottom: 70px;
@@ -176,4 +176,9 @@ footer{
     padding-bottom: 10px;
     border-radius: 25px;
     align-items: flex-end;
+}
+.back_btn{
+     padding-top: 10px;
+     padding-left: 10px;
+   
 }

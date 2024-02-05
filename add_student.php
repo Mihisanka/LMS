@@ -27,10 +27,10 @@ if (!isset($_SESSION["add_student"]))
 
    $result = mysqli_query($data, $sql);    
    if($result){
-    echo"<script type='text/javascript'> alert('data Upload success ');  </script>";
-   }
+    echo"data upload successfully ";
+}
    else{
-    echo"<script type='text/javascript'> alert('data Upload unsuccess ');  </script>";
+    echo"data upload successfully";
    }
 }
 
@@ -39,12 +39,12 @@ if (!isset($_SESSION["add_student"]))
 ?>
 
 <!DOCTYPE html>
-<meta charset="utf-8">
-<title>Add Student </title>
+<html>
 
 <head>
     <meta charset="utf-8">
     <title>Add Student </title>
+
 
     <style type="text/css">
     label {
@@ -67,6 +67,7 @@ if (!isset($_SESSION["add_student"]))
 
     <?php 
      include'admin_css.php';
+     
     ?>
 
 </head>

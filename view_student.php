@@ -88,10 +88,10 @@ $result = mysqli_query($data, $sql);
                         <td class="table_td"><?php  echo"{$info['password']}";?></td>
                         <td class="table_td">
                             <?php  echo"<a  class='btn btn-danger' onClick=\"javascript:return confirm
-                        ('Ae tou sure to delete data ');\" href='update_student.php?student_id={$info['id']}'>Delete</a>";?>
+                        ('Ae tou sure to delete data ');\" href='delete.php?student_id={$info['id']}'>Delete</a>";?>
                         </td>
                         <td class="table_td">
-                            <?php  echo"<a  class='btn btn-primary' href='update_student.php'>Update</a>";?>
+                            <?php  echo"<a  class='btn btn-primary' href='update_student.php?student_id={$info['id']}'>Update</a>";?>
                         </td>
                     </tr>
                     <?php 
