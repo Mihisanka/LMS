@@ -23,13 +23,13 @@ elseif  ($_SESSION['usertype']=='admin'){
     <?php
     include'student_sidebar.php';
     ?>
+
     <aside>
         <div class="content">
-            <h1>Student Home</h1>
+            <h1>My Courses </h1>
             </p>
         </div>
     </aside>
-
 
 </body>
 
